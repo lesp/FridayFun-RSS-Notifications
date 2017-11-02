@@ -2,7 +2,6 @@
 import sys
 import feedparser
 import notify2
-import time
 feed = feedparser.parse(sys.argv[1])
 notify2.init("Latest News from "+str(sys.argv[1]))
 
